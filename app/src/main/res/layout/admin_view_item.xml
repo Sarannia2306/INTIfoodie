@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/adminviewuser"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="350dp"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="17dp"
+            android:text="@string/Name"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="80dp"
+            android:text="@string/Age"
+            android:textSize="15sp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/identity"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="110dp"
+            android:text="@string/Gender"
+            android:textSize="15sp"
+            tools:ignore="TextSizeCheck" />
+
+
+        <TextView
+            android:id="@+id/userID"
+            android:layout_width="225dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="141dp"
+            android:text="@string/UserID"
+            android:textSize="15sp"
+            tools:ignore="TextSizeCheck" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

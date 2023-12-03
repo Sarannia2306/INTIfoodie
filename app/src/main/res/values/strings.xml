@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">INTIMA FOODIE</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Me</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="Very_severely_underweight">Very Severely Underweight</string>
+    <string name="Severely_underweight">Severely Underweight</string>
+    <string name="Underweight">Underweight</string>
+    <string name="Normal">Normal</string>
+    <string name="Overweight">Overweight</string>
+    <string name="Obese_Class_1">Obese Class 1</string>
+    <string name="Obese_Class_2">Obese Class 2</string>
+    <string name="Obese_Class_3">Obese Class 3</string>
+    <string name="Admin">ADMIN</string>
+    <string name="userdetails">User Details</string>
+    <string name="Name">Name</string>
+    <string name="Age">Age</string>
+    <string name="Weight">Weight(KG)</string>
+    <string name="Height">Height(CM)</string>
+    <string name="DOB">Date Of Birth</string>
+    <string name="Gender">Identity</string>
+    <string name="register">Register</string>
+    <string name="UserID">ID NO.</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="userInfo">User Information</string>
+
+    <string-array name="Identity">
+        <item>Student</item>
+        <item>Staff</item>
+    </string-array>
+
+</resources>

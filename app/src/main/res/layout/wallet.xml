@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/BMI_cal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Wallet">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/red"
+        android:minHeight="40dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/backIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="-1dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/baseline_arrow_back_24" />
+
+
+    <TextView
+        android:id="@+id/wallet"
+        android:layout_width="118dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="151dp"
+        android:text="Wallet"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="187dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="524dp"
+        android:gravity="center_horizontal"
+        android:text="Current Credit:"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/reloadedAmount"
+        android:layout_width="117dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="243dp"
+        android:layout_marginTop="-175dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="508dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Reload"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="262dp"
+        android:layout_marginBottom="406dp"
+        android:backgroundTint="@color/red"
+        android:onClick="showReloadDialog"
+        android:text="Reload"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/reloadPinEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginBottom="409dp"
+        android:ems="6"
+        android:inputType="textLongMessage"
+        android:hint="Enter PIN"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>

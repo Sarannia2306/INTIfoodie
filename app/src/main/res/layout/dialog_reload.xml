@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="207dp"
+        android:layout_marginBottom="16dp"
+        android:text="Enter the Reload PIN:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/reloadEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="237dp"
+        android:layout_marginEnd="11dp"
+        android:hint="Enter PIN"
+        android:inputType="textLongMessage" />
+
+</RelativeLayout>
+

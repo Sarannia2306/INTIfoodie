@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@color/white"
+    tools:context=".AdminHomePage"
+    tools:ignore="ExtraText">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/admintool"
+        android:layout_width="385dp"
+        android:layout_height="90dp"
+        android:background="@color/red"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:ignore="MissingConstraints,VisualLintBounds"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="@string/Admin"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/admintool"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,TextContrastCheck" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="Logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/logoutIcon"
+        android:src="@drawable/baseline_login_24"
+        tools:ignore="HardcodedText,MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/sendNoti"
+        android:layout_width="61dp"
+        android:layout_height="42dp"
+        android:contextClickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_notifications_24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <ImageView
+        android:id="@+id/orders"
+        android:layout_width="61dp"
+        android:layout_height="42dp"
+        android:clickable="true"
+        android:contextClickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/baseline_orders_24"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:layout_marginTop="32dp"
+        android:gravity="start|top"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/admintool"
+        tools:layout_editor_absoluteX="15dp">
+
+        <TextView
+            android:id="@+id/UserDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@string/userdetails"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/adminviewusers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:scrollbars="vertical" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

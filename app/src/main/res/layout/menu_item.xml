@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/foodImageView"
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="6dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/foodNameTextView"
+        android:layout_width="107dp"
+        android:layout_height="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="152dp"
+        android:layout_toEndOf="@+id/foodImageView" />
+
+    <TextView
+        android:id="@+id/priceNameTextView2"
+        android:layout_width="107dp"
+        android:layout_height="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="18dp"
+        android:layout_toEndOf="@+id/foodImageView" />
+
+    <Button
+        android:id="@+id/addOn"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="101dp"
+        android:backgroundTint="@color/red"
+        android:text="+"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="7dp"
+        android:backgroundTint="@color/red"
+        android:text="-"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="38dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="63dp"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginBottom="29dp"
+        android:backgroundTint="@color/red"
+        android:text="ADD" />
+
+
+</RelativeLayout>
+

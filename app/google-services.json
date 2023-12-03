@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "81425356213",
+    "firebase_url":"https://intifoodie-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "intifoodie",
+    "storage_bucket": "intifoodie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81425356213:android:d1d46d77806eb6987d75fc",
+        "android_client_info": {
+          "package_name": "com.example.INTIFoodie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5fi75xjtcrliO-m6Hn8lYFC5MyV1E9tE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

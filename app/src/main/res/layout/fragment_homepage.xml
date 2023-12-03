@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Homepage"
+    android:background="@color/white"
+    tools:context=".HomeFragment">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/red"
+        android:label="@string/app_name"
+        android:minHeight="40dp"/>
+
+    <TextView
+        android:id="@+id/loginIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-6dp"
+        android:background="#00FFFFFF"
+        android:clickable="true"
+        android:drawablePadding="8dp"
+        android:focusable="true"
+        android:padding="8dp"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="7dp"
+        android:label="@string/app_name"
+        android:text="INTIMA FOODIE"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/applogo"
+        android:layout_width="239dp"
+        android:layout_height="257dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="149dp"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/WelcomeText"
+        android:layout_width="342dp"
+        android:layout_height="106dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="140dp"
+        android:text="Welcome to INTIMA Foodie! Kindly go to our Menu to place your orders! thank you and have a nice day"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
